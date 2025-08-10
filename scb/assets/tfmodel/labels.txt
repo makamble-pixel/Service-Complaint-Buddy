@@ -1,0 +1,5 @@
+0 Samsung
+1 LG
+2 Whirpool
+3 Bosch
+4 Lloyd

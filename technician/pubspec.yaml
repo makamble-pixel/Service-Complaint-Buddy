@@ -1,0 +1,37 @@
+name: technician
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+  path_provider: ^2.1.4
+  google_fonts: ^6.2.1
+  flutter_launcher_icons: ^0.14.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/tech_logo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+        - assets/oven.png
+        - assets/drawer-bg.jpg
+        - assets/tech_logo.png

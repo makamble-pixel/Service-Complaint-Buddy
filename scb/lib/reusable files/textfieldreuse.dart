@@ -9,14 +9,14 @@ class ReusableTextField extends StatelessWidget {
   final IconData? icon;
 
   const ReusableTextField({
-    Key? key,
+    super.key,
     required this.labelText,
     required this.hintText,
     required this.controller,
     this.obscureText = false,
     this.keyboardType = TextInputType.text,
     this.icon,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class ReusableTextField extends StatelessWidget {
         decoration: InputDecoration(
           labelText: labelText,
           hintText: hintText,
-          border: OutlineInputBorder(
+          border: const OutlineInputBorder(
               borderRadius: BorderRadius.all(Radius.circular(20))),
           prefixIcon: icon != null ? Icon(icon) : null,
         ),

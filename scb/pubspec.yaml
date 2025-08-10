@@ -12,8 +12,22 @@ dependencies:
     sdk: flutter
   flutter_dotenv: ^5.1.0
   http: ^1.2.2
+  provider: ^6.0.5
   motion_tab_bar: ^2.0.4
   postgres: ^3.2.1
+  shared_preferences: ^2.0.15
+  google_fonts: ^6.2.1
+  image_picker: ^1.1.2
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+  flutter_launcher_icons: ^0.10.0
+  flutter_shake_animated: ^0.0.5
+  carousel_slider: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app-logo2.jpg"
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +44,9 @@ flutter:
         - assets/AC.png
         - assets/oven.png
         - assets/wahingmachine2.png
+        - assets/tfmodel/model_unquant.tflite
+        - assets/tfmodel/labels.txt
+        - assets/app-logo.png
+        - assets/wranch.png
+        - assets/ref-img.jpg
+        - assets/app-logo2.jpg
